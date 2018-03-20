@@ -1,0 +1,34 @@
+
+.todolist {
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    margin-top: 30px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+li.ui-state-default {
+    background: #fff;
+    border: none;
+    margin-left: 20px;
+}
+
+li.ui-state-default:last-child {
+    border-bottom: none;
+}
+
+#finished li {
+    text-decoration: line-through;
+}
+
+.todo-footer {
+    /*background-color: #F4FCE8;*/
+    margin: 0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+
+.del-button {
+    float: right;
+}
